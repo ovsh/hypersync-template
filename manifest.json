@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "source": "global/cursor/rules",
+      "destination": ".cursor/rules",
+      "kind": "directory",
+      "strategy": "replace"
+    },
+    {
+      "source": "global/cursor/skills-cursor",
+      "destination": ".cursor/skills-cursor",
+      "kind": "directory",
+      "strategy": "replace"
+    },
+    {
+      "source": "global/cursor/AGENTS.md",
+      "destination": ".cursor/AGENTS.md",
+      "kind": "file",
+      "strategy": "replace"
+    },
+    {
+      "source": "global/claude/rules",
+      "destination": ".claude/rules",
+      "kind": "directory",
+      "strategy": "replace"
+    },
+    {
+      "source": "global/claude/skills",
+      "destination": ".claude/skills",
+      "kind": "directory",
+      "strategy": "replace"
+    },
+    {
+      "source": "global/claude/AGENTS.md",
+      "destination": ".claude/AGENTS.md",
+      "kind": "file",
+      "strategy": "replace"
+    }
+  ]
+}
